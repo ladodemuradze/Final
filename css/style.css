@@ -160,15 +160,14 @@ nav a {
 }
 
 .navbar{
-  overflow: hidden;
-  position: relative;
-  display: block;
+   list-style-type: none;
+    display: none;
 }
 
 
 /*responsive*/
 
-@media (max-width:1000px)
+@media  (max-width:1000px)
 {
 	.nav-ul { 
 		width: 100%;		
@@ -190,8 +189,6 @@ nav a {
 	}
 	.navbar{
 		display: block;
-		position: relative;
-		overflow: visible;
 
 	}
 	.text1{
@@ -199,4 +196,20 @@ nav a {
 		font-size: 60px;
 	}
 
+
 }
+@media (max-width: 500px)
+{
+
+	.text1{
+
+		font-size: 40px;
+	}
+
+	.logo-svg{
+
+		padding: 3% 2% 5% 5%;
+
+
+	}
+} 
