@@ -137,7 +137,7 @@ nav a {
   padding: 50px;
   padding-top: 125px;
   right: -100px;
-  height:48vh;
+  height:vh;
   background: black;
   opacity: 0.2;
   list-style-type: none;
@@ -169,15 +169,12 @@ nav a {
 /*responsive*/
 
 @media (max-width:1000px)
-{ .first-box{
-	width: 100%; }
+{
 	.nav-ul { 
-		display: flex;
 		width: 100%;		
 
 	 }
 	 .logo-svg {
-	 	display: flex;
 	 	width: 100%;
 	 }
 
@@ -196,6 +193,10 @@ nav a {
 		position: relative;
 		overflow: visible;
 
+	}
+	.text1{
+
+		font-size: 60px;
 	}
 
 }
