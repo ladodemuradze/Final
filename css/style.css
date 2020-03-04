@@ -171,24 +171,16 @@ nav a {
 .tt1{
 	display: flex;
 	justify-content: center;
-	margin: 5% auto;
+	margin: 3% auto;
 	font-size: 100px;
 	color: #009999;
 
 }
 
 .pp1{
-	margin: 5% 5%;
+	margin: 3% 5%;
 	font-size: 25px;
 	color: #002266;
-
-
-
-}
-
-.grey-box{
-	display: flex;
-    flex-wrap: wrap;
 }
 
 
@@ -208,7 +200,7 @@ nav a {
   box-sizing: border-box;
 }
 body, figure { 
-  margin:0 ; background: #101010;
+  margin:0 ; background: #707070;
 }
 div#captioned-gallery { 
   width: 96%; overflow: hidden;
@@ -218,6 +210,7 @@ div#captioned-gallery {
 figure.slider { 
   position: relative; width: 500%;
   font-size: 0; animation: 30s slidy infinite;
+
 }
 figure.slider figure { 
   width: 20%; height: auto;
@@ -230,6 +223,7 @@ figure.slider figure figcaption {
   background: rgba(0,0,0,0.4);
   color: #fff; width: 100%;
   font-size: 2rem; padding: .6rem; 
+
 }
 
 
@@ -245,6 +239,10 @@ figure.slider figure figcaption {
 	 }
 	 .logo-svg {
 	 	width: 100%;
+	 }
+
+	 .pp1{
+	 	font-size: 20px;
 	 }
 
 }
@@ -265,6 +263,14 @@ figure.slider figure figcaption {
 
 		font-size: 60px;
 	}
+	.pp1{
+	 	font-size: 18px;
+	}
+
+	.tt1{
+
+		font-size: 70px;
+	}
 
 
 }
@@ -281,5 +287,13 @@ figure.slider figure figcaption {
 		padding: 3% 2% 5% 5%;
 
 
+	}
+	.pp1{
+	 	font-size: 14px;
+	}
+
+	.tt1{
+
+		font-size: 50px;
 	}
 } 
