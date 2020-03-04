@@ -2,6 +2,8 @@ html, body {
 
 	height: 100%;
 	width: 100%;
+	background: #D3D3D3;
+	padding: 0%;
 }
 
 /*base*/
@@ -46,7 +48,7 @@ nav a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: aqua;
+  color: #00CCCC;
   font-size: 100px;
   white-space: nowrap;
 }
@@ -163,6 +165,74 @@ nav a {
    list-style-type: none;
     display: none;
 }
+
+/*box-2*/
+
+.tt1{
+	display: flex;
+	justify-content: center;
+	margin: 5% auto;
+	font-size: 100px;
+	color: #009999;
+
+}
+
+.pp1{
+	margin: 5% 5%;
+	font-size: 25px;
+	color: #002266;
+
+
+
+}
+
+.grey-box{
+	display: flex;
+    flex-wrap: wrap;
+}
+
+
+/*slide*/
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+* {
+  box-sizing: border-box;
+}
+body, figure { 
+  margin:0 ; background: #101010;
+}
+div#captioned-gallery { 
+  width: 96%; overflow: hidden;
+  margin:2%;
+
+}
+figure.slider { 
+  position: relative; width: 500%;
+  font-size: 0; animation: 30s slidy infinite;
+}
+figure.slider figure { 
+  width: 20%; height: auto;
+  display: inline-block;  position: inherit; 
+  padding: 0.3%;
+}
+figure.slider img { width: 100%; height: auto; }
+figure.slider figure figcaption { 
+  position: absolute; bottom: 0;
+  background: rgba(0,0,0,0.4);
+  color: #fff; width: 100%;
+  font-size: 2rem; padding: .6rem; 
+}
+
+
 
 
 /*responsive*/
