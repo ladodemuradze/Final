@@ -36,6 +36,7 @@ html, body {
 
 	margin-right: 10%;
 	white-space: nowrap;
+	text-shadow: 5px 5px 10px black;
 
 }
 nav a {
@@ -49,6 +50,7 @@ nav a {
   left: 50%;
   transform: translate(-50%, -50%);
   color: #00CCCC;
+  text-shadow: 10px 10px 20px black;
   font-size: 100px;
   white-space: nowrap;
 }
@@ -174,6 +176,7 @@ nav a {
 	margin: 3% auto;
 	font-size: 100px;
 	color: #009999;
+	text-shadow: 10px 10px 20px gray;
 
 }
 
@@ -190,9 +193,44 @@ nav a {
 	margin: 7% auto;
 	font-size: 100px;
 	color: #009999;
+	text-shadow: 10px 10px 20px gray;
 }
 
+/*box-3*/
+.container1{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
 
+.box-3{
+flex-wrap: wrap;
+text-align: center;
+width: 400px;
+height: 380px;
+box-shadow:11px 3px 44px 3px rgba(0,0,0,1);
+margin-top: 4%; 
+}
+
+.title1{
+font-size: 45px;
+color: black;
+
+}
+
+.paragraf1{
+font-size: 125%;
+padding: 6%;
+color: black;
+}
+
+.img-wraper{
+  font-size:400%;
+  color: #004080;
+  text-align: center;
+  padding: 2%;
+  text-shadow: 10px 10px 20px black;
+}
 /*slide*/
 @keyframes slidy {
 0% { left: 0%; }
@@ -237,6 +275,7 @@ figure.slider figure figcaption {
    padding: 0.3%;
 
 }
+
 
 
 /*responsive*/
