@@ -231,6 +231,52 @@ color: black;
   padding: 2%;
   text-shadow: 10px 10px 20px black;
 }
+
+
+/*footer*/
+
+.footer{
+	display: flex;
+	justify-content:space-around;
+	height: 40%;
+	width: 100%;
+	background-color:#009999;
+	margin-top: 5%;
+	box-shadow:11px 3px 44px 3px #009999;
+}
+.box-size{
+	padding: 3% 0% 3% 0%;
+
+}
+.box-5{
+
+	margin-top: 5%;
+}
+.contact{
+	flex-wrap: wrap;
+}
+.contact-info-text{
+	font-size: 160%;
+	margin-top: 7%;
+
+}
+
+.tel{
+font-size: 130%;
+margin: 2%;
+white-space: nowrap;
+
+
+}
+/*.maps{
+	font-size: 130%;
+color: inherit;
+
+}
+
+.social{
+	display: inline-block;
+}*/
 /*slide*/
 @keyframes slidy {
 0% { left: 0%; }
