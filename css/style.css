@@ -415,11 +415,8 @@ figure.slider figure figcaption {
 /*responsive*/
 
 @media  (max-width:1000px)
-{
-	.nav-ul { 
-		width: 100%;		
+{		
 
-	 }
 	 .first-box{
 	 	padding-right: 3%; 
 
@@ -441,6 +438,8 @@ figure.slider figure figcaption {
 		font-size: 80px;
 
 	}
+	.box-4{ 
+		margin-top: 10%;
 
 }
 @media (max-width:900px)
