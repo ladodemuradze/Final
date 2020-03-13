@@ -23,25 +23,26 @@ html, body {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    display: flex;
+    justify-content: space-around;
 }
 .nav-ul {
-
 	display: -webkit-box;
-
 	display: -ms-flexbox;
-
 	display: flex;
-	-webkit-box-pack: justify;
-	    -ms-flex-pack: justify;
-	        justify-content: space-between;
-	padding: 2% 5% 0% 9%;
+  margin: 3% 0% 0% 10%;
+
 
 }
 .nav-li{
-
-	margin-right: 8%;
+	margin-left: 7%;
 	white-space: nowrap;
 	text-shadow: 5px 5px 10px black;
+
+}
+.logo14{
+margin: 2% 6% 0% 0%;
+
 
 }
 nav a {
@@ -355,7 +356,7 @@ font-family: 'Inter', sans-serif;
 	        box-shadow:11px 3px 44px 3px #009999;
 }
 .text4 {
-margin: 2%;
+margin: 25px;
 font-size: 20px;
 font-family: 'Inter', sans-serif;
 
@@ -443,10 +444,7 @@ figure.slider figure figcaption {
 
 }
 @media (max-width:900px)
-{   .first-box
-	{
-	width: 100%; 
-     }
+{  
 
 	.nav-ul{
 		display: none;
@@ -471,7 +469,11 @@ figure.slider figure figcaption {
 		font-size: 55px;
 		white-space: nowrap;
 	}
+  .logo14{
 
+    margin-top: 30px;
+    margin-right: 70%;
+  }
 
 }
 
@@ -483,7 +485,7 @@ figure.slider figure figcaption {
 	}
 
 	.text4 {
-      margin: 6% 0.5%;
+      margin: 25px 0.5%;
       font-size: 15px;
 
 }
@@ -494,6 +496,10 @@ figure.slider figure figcaption {
 .tt2{
 		font-size: 50px;
 	}
+
+  .logo14{
+    margin-top: 25px;
+  }
 
 }
 @media (max-width: 500px)
