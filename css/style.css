@@ -204,8 +204,8 @@ nav a {
 
 #menu li
 {
-  padding: 10px 0;
-  font-size: 22px;
+  padding: 9px 0;
+  font-size: 14px;
 }
 
 #menuToggle input:checked ~ ul
