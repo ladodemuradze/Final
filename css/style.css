@@ -1,6 +1,5 @@
 html, body {
 	height: 100%;
-	width: 100%;
 	background: #D3D3D3;
 	margin: 0%;
 }
@@ -12,15 +11,16 @@ html, body {
 	position: absolute;
 }
 /*header*/
-.first-box{
-	background-image: url(../img/cover.jpg);
-	height: 625px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    display: flex;
-    justify-content: space-around;
+
+.first-box {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  background-image: url(../img/cover.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .nav-ul {
 	display: -webkit-box;
