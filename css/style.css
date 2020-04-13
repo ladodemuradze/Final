@@ -380,6 +380,7 @@ figure.slider figure figcaption {
   .paragraf1{
     font-size: 138%;
   }
+}
 @media  (max-width:1600px) {
 .box-3{
   width: 400px;
@@ -405,6 +406,7 @@ nav a {
     font-size: 45px;}
     .tel {
     font-size: 130%;}
+  }
 @media  (max-width:1000px)
 {		
 	 .first-box{
@@ -424,6 +426,7 @@ nav a {
 	}
 	.box-4{ 
 		margin-top: 10%;
+}
 }
 @media (max-width:900px)
 {  
